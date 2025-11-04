@@ -1,0 +1,206 @@
+*{
+    font-style: italic ;
+    text-decoration: none;
+}
+a{
+    color: azure;
+}
+body{
+    display: grid;
+    padding: 0 ;
+    margin: 0;
+    background: linear-gradient(violet,rgb(53, 2, 53));
+}
+.hero{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    background: linear-gradient(violet,rgb(53, 2, 53));
+}
+
+
+.hero-content{
+    font-size: x-large;
+    padding: 10px;
+    background-color:white; 
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+    
+}
+#questiondiv{
+    align-self: start;
+    padding: 0;
+    width: 700px;
+    justify-self: center;
+    
+}
+.cardheader{
+    display: grid;
+    justify-content: center;
+}
+.cardheader p{
+    color: grey;
+    font-size: large;
+    justify-self: center;
+}
+.instruction{
+    padding: 15px;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.21);
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+#instruction-question{
+    margin-top: 0;
+}
+#radiobtn{
+    box-shadow: 0 0 10px white;
+    
+}
+.commencerquiz{
+    justify-self: center;
+}
+.nbrquestion{
+    justify-self: center;
+    color: grey;
+}
+.commencerquiz{
+    display: flex;
+    width: 99%;
+    justify-content: center;
+}
+.commencerquiz button{
+    cursor: pointer;
+    width: 99%;
+    height: 40px;
+    border-radius:20px ;
+    border-style: none;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+.commencerquiz a{
+    width: 99%;
+    height: 40px;
+}
+.commencerquiz  :hover{
+    opacity: 60%;
+}
+.header{
+    display: grid;
+    justify-content: center;
+    padding: 40px;
+    color: white;
+    background: linear-gradient(to left, violet,rgb(53, 2, 53));
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    opacity: 60%;
+    justify-self: center;
+    align-self: start;
+    width: 600px;
+}
+.radio-container{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: grid;
+    gap: 40px;;
+}
+.suivantprécedent-btn{
+    width: 900px;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    cursor: pointer;
+}
+.précedent{
+    font-size: large;
+    font-weight: bold;
+    font-style: sans-serif;
+    height: 40px;
+    width: 180px;
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: 0 0 10px white;
+
+}
+.suivant{
+    font-size: large;
+    font-weight: bold;
+    font-style: sans-serif;
+    height: 40px;
+    width: 180px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: black;
+    color: white;
+
+}
+.vrai{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: rgba(0, 128, 0, 0.512);
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.faux{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: rgba(255, 0, 0, 0.512);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    justify-self: end;
+}
+.flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.score{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.radio-item{
+}
+.choie-container{
+    display: flex;
+}
+#choie-lettre{
+display: flex;
+
+}
+#choie-texte{
+display: flex;
+
+}
+
+
+#questiondiv {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px white;
+  padding: 20px;
+  width: 700px;
+}
+
+.choix {
+  background-color: rgba(128, 128, 128, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.choix:hover {
+  background-color: rgba(128, 0, 128, 0.2);
+}
+
+
